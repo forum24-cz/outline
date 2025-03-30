@@ -1,0 +1,1 @@
+import{k as a,a9 as s,aa as o,ab as m}from"./index.mlCxaiYE.js";import{u as n}from"./DocumentContext.hhTeDqBR.js";function useCommandBarActions(t,i=[]){const e=a(),r=n({isCommandBar:!0}),u=s(t.map((a=>o(a,r))));m.useRegisterActions(u,[u.map((a=>a.id)).join(""),e.pathname,...i])}export{useCommandBarActions as u};

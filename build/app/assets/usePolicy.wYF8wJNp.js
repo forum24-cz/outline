@@ -1,0 +1,1 @@
+import{u as e,r as s}from"./index.mlCxaiYE.js";import{u as i}from"./useCurrentUser.zlImhYTS.js";function usePolicy(t){const{policies:o}=e(),r=i({rejectOnEmpty:!1}),n=t?"string"==typeof t?t:t.id:"",u=o.get(n);return s.useEffect((()=>{!t||"string"==typeof t||t.isNew||t.isSaving||!u&&r&&t.loadRelations()}),[o,u,r,t]),o.abilities(n)}export{usePolicy as u};

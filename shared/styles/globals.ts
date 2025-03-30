@@ -12,6 +12,7 @@ export default createGlobalStyle<Props>`
 
   * {
     box-sizing: border-box;
+    border-radius: 0 !important;
   }
 
   html,
